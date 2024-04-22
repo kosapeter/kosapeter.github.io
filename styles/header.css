@@ -1,0 +1,132 @@
+header
+{
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: inherit;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+
+
+header #left #logo
+{
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+
+header #middle
+{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+header #middle a
+{
+    text-decoration: none;
+}
+
+header #middle h1
+{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+header #middle #main-navigation
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+header #middle #main-navigation a
+{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+header #middle #main-navigation a:hover
+{
+    color: rgb(27, 27, 27);
+    background-color: rgb(166, 108, 0);
+    font-weight: bold;
+}
+
+
+header #right
+{
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header #right img
+{
+    width: 80px;
+    height: 80px;
+    margin-top: 3px;
+}
+
+header #right img:hover
+{
+    cursor: pointer;
+}
+
+header #right #toggle
+{
+    display: none;
+}
+
+header #right label
+{
+    position: relative;
+}
+
+header #right #dropdown-nav
+{
+    display: none;
+    position: absolute;
+    top: 105%;
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    width: 80px;
+    border-radius: 10%;
+    border: 1px solid rgb(180, 120, 0);
+}
+
+header #right #dropdown-nav a
+{
+    color: rgb(180, 120, 0);
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+header #right #dropdown-nav a:hover
+{
+    color: black;
+    background-color: rgb(180, 120, 0);
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+header #right #toggle:checked + label + #dropdown-nav
+{
+    display: block;
+}
