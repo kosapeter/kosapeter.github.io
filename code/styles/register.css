@@ -1,0 +1,81 @@
+body
+{
+    width: 100%;
+}
+
+
+.register-container
+{
+    width: 350px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="number"],
+.register-container textarea,
+.register-container select,
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: black;
+}
+text
+
+.register-container input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+.register-container input[type="radio"] {
+    margin-left: 0px;
+}
+
+.register-container form p
+{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.register-container input[type="submit"],
+.register-container input[type="reset"]
+{
+    width: 100%;
+    background-color: black;
+    color: rgb(187, 121, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.register-container input[type="submit"]:hover,
+.register-container input[type="reset"]:hover
+{
+    background-color: rgb(187, 121, 0);
+    color: black;
+}
+
+.register-container a
+{
+    font-size: 0.8rem;
+    display: block;
+    text-align: right;
+}

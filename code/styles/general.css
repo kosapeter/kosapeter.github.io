@@ -1,0 +1,32 @@
+*
+{
+    color: rgb(180, 120, 0);
+}
+
+
+body
+{
+    background-image: url("../static/Images/background.png");
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main
+{
+    margin-top: 80px;
+    background-color: rgba(27, 27, 27, 0.95);
+    flex: 1;
+}
+
+
+p
+{
+    font-size: 1.1rem;
+}

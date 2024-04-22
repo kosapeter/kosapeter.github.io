@@ -1,0 +1,27 @@
+main h2
+{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+main table
+{
+    margin: auto;
+}
+
+main table tr td
+{
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+main p
+{
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
